@@ -26,6 +26,7 @@ h2 {
 
 h3 {
   font-size: 30px;
+  text-shadow: -1px 1px 2px rgb(254, 254, 254);
 }
 
 h4 {
@@ -86,4 +87,24 @@ aside {
 
 body {
   background-color: #00ffff;
+}
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(odd) {
+  /* color: #ff0000; */
+}
+
+article p:last-child {
+  color: #ff0000;
 }
