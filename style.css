@@ -1,11 +1,10 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+}
+
+body {
   font-family: Futura, sans-serif;
   color: #444;
+  border-top: 10px solid #ffff00;
 }
 
 h1,
@@ -130,4 +129,27 @@ a:hover {
 a:active {
   background-color: darkgoldenrod;
   font-style: italic;
+}
+
+/* resolving conflicts */
+/* #copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+#text {
+  color: yellow;
+}
+footer p {
+  color: aquamarine;
+} */
+
+/* nav a:link {
+  font-size: 18px;
+} */
+
+nav p,
+nav a:link {
+  font-size: 18px;
 }
