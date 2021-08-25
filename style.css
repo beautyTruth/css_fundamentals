@@ -105,6 +105,29 @@ li:nth-child(odd) {
   /* color: #ff0000; */
 }
 
-article p:last-child {
+/* doesn't work like this, only if the first child actually is a paragraph element */
+article p:first-child {
   color: #ff0000;
+}
+
+/* Link styling */
+
+a:link {
+  color: #444;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #444;
+}
+
+a:hover {
+  color: rgb(0, 255, 30);
+  font-weight: bold;
+  text-decoration: underline wavy cornflowerblue;
+}
+
+a:active {
+  background-color: darkgoldenrod;
+  font-style: italic;
 }
