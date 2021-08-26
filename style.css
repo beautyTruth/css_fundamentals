@@ -9,13 +9,20 @@ body {
   border-top: 10px solid #ffff00;
 }
 
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .main-header {
-  background-color: #ff0000;
   /* padding: 20px;
   padding-left: 40px;
   padding-right: 40px; */
-  padding: 20px 40px;
-  margin-bottom: 60px;
+  background-color: #ff0000;
+  padding: 20px 40px 40px 40px;
+  margin: 10px 0 40px 0;
+  height: 80px;
+  border-radius: 15px;
 }
 
 nav p,
@@ -36,6 +43,7 @@ aside {
   border: 5px solid #0e56ae;
   border-radius: 15px;
   padding: 50px 0;
+  width: 500px;
 }
 
 h1,
@@ -180,3 +188,8 @@ footer p {
 /* nav a:link {
   font-size: 18px;
 } */
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
