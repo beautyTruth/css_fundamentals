@@ -14,6 +14,20 @@ nav {
   text-align: center;
 }
 
+.colors {
+  font-size: 0;
+}
+
+.color {
+  color: antiquewhite;
+  background-color: blueviolet;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  transform: rotate(20deg);
+  z-index: 2000;
+}
+
 .container {
   width: 800px;
   margin: 0 auto;
@@ -154,6 +168,20 @@ article p:first-child {
   color: #ff0000;
 }
 
+.colors {
+  font-size: 0;
+}
+
+.color {
+  color: antiquewhite;
+  background-color: blueviolet;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  transform: rotate(20deg);
+  z-index: 2000;
+}
+
 /* Link styling */
 
 a:link {
@@ -244,4 +272,19 @@ h2::after {
   top: -10px;
   right: -10px;
   transform: rotate(20deg);
+}
+
+.colors {
+  color: antiquewhite;
+  font-size: 0;
+}
+
+.color {
+  background-color: blueviolet;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  transform: rotate(20deg);
+  z-index: 2000;
+  text-align: center;
 }
